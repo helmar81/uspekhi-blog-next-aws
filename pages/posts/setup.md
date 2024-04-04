@@ -7,14 +7,7 @@ author: You
 ---
 
 
-<Image
-  src="/images/ph.png"
-  alt="Photo"
-  width={1125}
-  height={750}
-  priority
-  className="next-image"
-/>
+
 # Markdown Examples
 
 ## AWS has the solution

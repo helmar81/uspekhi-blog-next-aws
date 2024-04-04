@@ -8,6 +8,7 @@ author: Helmar
 
 <Image
   src="/images/aws.png"
+  
   alt="Photo"
   width={1125}
   height={750}

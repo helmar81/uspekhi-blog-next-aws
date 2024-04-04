@@ -4,7 +4,7 @@ export default function Document() {
   const meta = {
     title: "Philippimes",
     description: "Stunninng country in South East Asia.",
-    image: "/ph.png",
+    image: "/Uspekhi.png",
   };
 
   return (

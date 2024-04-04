@@ -8,7 +8,7 @@
 @font-face {
   font-family: "Inter var";
   font-style: italic;
-  font-weight: 100 900;
+  font-weight: 200 900;
   font-display: block;
   src: url(/fonts/Inter-italic.latin.var.woff2) format("woff2");
   font-named-instance: "Italic";
@@ -31,13 +31,13 @@ h3,
 h4,
 h5,
 h6 {
-  font-variation-settings: "wght" 650;
+  font-variation-settings: "wght" 750;
 }
 h1 {
-  font-variation-settings: "wght" 850;
+  font-variation-settings: "wght" 950;
 }
 h2 {
-  font-variation-settings: "wght" 750;
+  font-variation-settings: "wght" 850;
 }
 
 @media screen and (min-device-pixel-ratio: 1.5),
@@ -67,7 +67,7 @@ img.next-image {
 
 
 footer {
-  background-color: #7a10a1;
+  background-color: #d79120;
   margin-bottom: auto
   ;
 }

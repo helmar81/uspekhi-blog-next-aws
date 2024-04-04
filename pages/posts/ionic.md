@@ -1,12 +1,8 @@
 ---
 title: "PWA with IONIC"
-pubDate: "2020-02-01"
-slug: "Create a PWA with IONIC
-that is responsive on all devices"
+date: 2024/3/18
 description: "Ionic Framework is an open source UI toolkit for building performant, high-quality mobile and desktop apps using the latest web technologies (HTML,CSS, JS) "
-hero: "/images/biking.webp"
-tags: ["go"]
-layout: "../../layouts/BlogPostLayout.astro"
+
 ---
 
 

@@ -5,7 +5,7 @@ export default {
     <footer>
       <small>
         <time>{YEAR}</time> © Copyright
-        <a href="https://uspekhi.web.app"> USPEKHI</a>
+        <a href="https://uspekhi.web.app" rel="noopener"  target="_blank" > USPEKHI</a>
       </small>
       <style jsx>{`
         footer {
