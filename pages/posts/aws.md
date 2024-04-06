@@ -2,24 +2,36 @@
 title: AWS Amplify
 date: 2024/3/18
 description: Amplify provides frontend libraries, UI components, backend building, and frontend hosting for building fullstack cloud apps.
-tag: web development
+tag: web development, amazon, aws, cli,
 author: Helmar
 ---
 
-<Image
-  src="/images/aws.png"
-  
-  alt="Photo"
-  width={1125}
-  height={750}
-  priority
-  className="next-image"
-/>
 
 # AWS Amplify
 
 AWS Amplify is a collection of cloud services and libraries for fullstack application development. Amplify provides frontend libraries, UI components, backend building, and frontend hosting for building fullstack cloud apps. This tutorial will teach you how to use Amplify's new code-first developer experience to build a fullstack application with data, authentication, and frontend hosting which are all deployed to AWS. If you're completely new to AWS Amplify, you may want to read more about how it works and the concepts behind the second generation of AWS Amplify, which this tutorial will use.
 
+## CLI
+
+```
+npm install -g @aws-amplify/cli
+
+amplify configure
+
+
+amplify init
+
+npm install aws-amplify @aws-amplify/adapter-nextjs
+
+Pro tip:
+Try "amplify add api" to create a backend API and then "amplify push" to deploy everything
+
+amplify add api
+
+
+amplify push
+
+```
 
 ## Next.js
 First, you will need to create a new Next.js app. The following command will create a Next.js app: 

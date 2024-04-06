@@ -2,8 +2,8 @@ import { Html, Head, Main, NextScript } from "next/document";
 
 export default function Document() {
   const meta = {
-    title: "Philippimes",
-    description: "Stunninng country in South East Asia.",
+    title: "Fullstack Webdevelopment",
+    description: "What are the best Frameworks",
     image: "/Uspekhi.png",
   };
 

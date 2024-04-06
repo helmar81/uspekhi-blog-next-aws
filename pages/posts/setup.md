@@ -7,9 +7,6 @@ author: You
 ---
 
 
-
-# Markdown Examples
-
 ## AWS has the solution
 
 If you've been hesitant to learn cloud computing, well today is your day to sign up and get your hands on.
