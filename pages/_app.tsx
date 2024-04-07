@@ -3,16 +3,15 @@ import type { AppProps } from "next/app";
 import Head from "next/head";
 import "../styles/main.css";
 
-import { GoogleAnalytics } from "nextjs-google-analytics";
+import { GoogleTagManager } from '@next/third-parties/google'
+ 
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-
-          <GoogleAnalytics trackPageViews />
-
-<GoogleAnalytics gtagUrl="https://www.googletagmanager.com/gtag/js?id=G-GMBT9699CL/gtag.js"/>
+    
+      <GoogleTagManager gtmId="GTM-54C2PTQJ" />
         
         <link
           rel="alternate"
