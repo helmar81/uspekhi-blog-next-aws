@@ -11,14 +11,11 @@ export default function App({ Component, pageProps }: AppProps) {
     <>
       <Head>
 
+   
+
     
-      <GoogleTagManager gtmId="GTM-54C2PTQJ" />
-
-        
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-GMBT9699CL"></script>
-
-
-        
+     
         <link
           rel="alternate"
           type="application/rss+xml"
@@ -34,6 +31,12 @@ export default function App({ Component, pageProps }: AppProps) {
         />
       </Head>
       <Component {...pageProps} />
+
+      <GoogleTagManager gtmId="GTM-54C2PTQJ" />
+
+     
+
+
     </>
   );
 }
