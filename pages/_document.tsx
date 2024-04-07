@@ -21,6 +21,9 @@ export default function Document() {
         <meta name="twitter:title" content={meta.title} />
         <meta name="twitter:description" content={meta.description} />
         <meta name="twitter:image" content={meta.image} />
+
+             
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GMBT9699CL"></script>
       </Head>
       <body>
         <Main />
