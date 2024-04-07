@@ -13,6 +13,9 @@ export default function App({ Component, pageProps }: AppProps) {
           <GoogleAnalytics trackPageViews />
 
 <GoogleAnalytics gtagUrl="https://www.googletagmanager.com/gtag/js?id=G-GMBT9699CL/gtag.js"/>
+
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-GMBT9699CL"></script>
+
         
         <link
           rel="alternate"
