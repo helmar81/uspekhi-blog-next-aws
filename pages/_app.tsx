@@ -10,18 +10,14 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-<<<<<<< HEAD
+
     
       <GoogleTagManager gtmId="GTM-54C2PTQJ" />
-=======
 
-          <GoogleAnalytics trackPageViews />
-
-<GoogleAnalytics gtagUrl="https://www.googletagmanager.com/gtag/js?id=G-GMBT9699CL/gtag.js"/>
-
+        
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-GMBT9699CL"></script>
 
->>>>>>> e5011c4aa618a075f5595c485ea8182c5b440df5
+
         
         <link
           rel="alternate"
